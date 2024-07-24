@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 
 # Database
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'), ssl_require=True)
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 
